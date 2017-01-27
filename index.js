@@ -4,7 +4,7 @@ module.exports = o => {
 	return (keys === null) ? keys : keys.split(',');
 };
 
-var findUndefinedness = (o, prop) => {
+function findUndefinedness(o, prop) {
 	const keys = Object.keys(o)
 					.map(key => {
 						// Indicates current position accounting

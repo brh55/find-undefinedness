@@ -36,9 +36,10 @@ test('Test find undefindness', t => {
 			stars: 100
 		},
 		emoji: undefined
-	}
+	};
+
 	t.deepEqual(
 		findUndefindness(user),
-		[ "name", "github.repositories.private", "github.followers.repositories.private", "emoji" ]
+		['name', 'github.repositories.private', 'github.followers.repositories.private', 'emoji']
 	);
 });

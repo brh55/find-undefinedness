@@ -55,7 +55,7 @@ findUndefinedness(user);
 
 ### findUndefinedness(object)
 
-* Returns dot notation keys containing `undefined` for inserted object.*
+* Returns `<array>` of dot notation keys if `undefined` is found, *else* `null`.*
 
 #### object | [`<object>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Normal_objects_and_functions)
 
