@@ -1,6 +1,6 @@
 {
   "name": "find-undefinedness",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find object keys that contain undefined as their values",
   "license": "MIT",
   "repository": "brh55/find-undefinedness",
